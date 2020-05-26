@@ -1,0 +1,40 @@
+.search-box {
+    width: 100%;
+    margin: 10px auto 20px;
+    background-color: #090909;
+    border-radius: 50px;
+    &:focus-within{
+        label{
+            color: #adff2f;
+        }
+        background-color: transparent;
+    }
+
+    label {
+        font-size: 3rem;
+    }
+    
+    input[type="search"] {
+        font-size: 2rem;
+        width: 80%;
+        padding: 20px 10px;
+        background-color: transparent;
+        border: none;
+        color: greenyellow;
+        &::placeholder {
+            opacity: 0.4;
+        }
+        &:focus {
+            outline: none;
+        }
+        &::-webkit-search-cancel-button{
+            position:relative;
+            right:20px;  
+            -webkit-appearance: none;
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+            background-color: #adff2f;
+        }
+    }
+}

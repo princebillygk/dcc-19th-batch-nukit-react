@@ -1,0 +1,28 @@
+.std-tile {
+    background-color: greenyellow;
+    box-shadow: 5px 5px 0 #006600;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    .std-tile-img img {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+    .std-tile-description {
+        h3 {
+            color: #005500;
+            font-size: 14px;
+            padding: 0;
+            margin: 0;
+        }
+        p{
+            font-size: 10px;
+            color: #000;
+            text-align: left;
+            margin: 3px;
+        }
+    }
+}
