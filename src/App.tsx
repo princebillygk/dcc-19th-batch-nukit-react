@@ -18,8 +18,8 @@ function App() {
     setStudents(studentsData);
   });
 
-  const searchHandler = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    setSearchText(e.currentTarget.value.toLowerCase());
+  const searchHandler = async (e: React.ChangeEvent<HTMLInputElement>): Promise<void>=> {
+    await setSearchText(e.currentTarget.value.toLowerCase());
   }
 
   const filterdStudents = students.filter(student =>

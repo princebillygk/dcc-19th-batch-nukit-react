@@ -8,7 +8,7 @@ export function StudentTile(std: Student) {
             <div className="std-tile-img">
                 <img
                     src={std.img ? std.img : ''}
-                    alt=""
+                    alt={std.name}
                 />
             </div>
             <div className="std-tile-description">
