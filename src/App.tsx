@@ -7,11 +7,12 @@ import studentsData from './data/students.data'
 //componets
 import { Heading } from './components/Heading/Heading';
 import { SearchBox } from './components/SearchBox/Searchbox';
-import { StudentTile } from './components/StudentTile/StudentTile';
+import { StudentTileList } from './components/StudentTileList/StudentTileList';
 
 function App() {
   const [students, setStudents] = useState<Student[]>([]);
   const [searchText, setSearchText] = useState<string>('');
+
 
   useEffect(() => {
     setStudents(studentsData);
@@ -33,17 +34,8 @@ function App() {
         placeHolder="name or reg"
         changeHandler={searchHandler}
       />
+      <StudentTileList students={filterdStudents}/>
 
-      {filterdStudents.map((student: Student) => (
-        <StudentTile
-          img={`https://robohash.org/${student.roll}?set=set4&size=100x100&bgset=bg1`}
-          name={student.name}
-          reg={student.reg}
-          roll={student.roll}
-          section={student.section}
-          batch={student.batch}
-        />
-      ))}
     </div>
   );
 
