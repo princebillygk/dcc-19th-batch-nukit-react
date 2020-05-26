@@ -50,7 +50,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "jahid Hasan Siam",
+    "name": "Jahid Hasan Siam",
     "reg": 16502000401,
     "roll": 8,
     "section": "A",
@@ -113,7 +113,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "israt Jahna",
+    "name": "Israt Jahna",
     "reg": 16502000510,
     "roll": 17,
     "section": "A",
@@ -239,7 +239,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Md. Mahubub Reza",
+    "name": "Md. Mahubub Reza (Inactive)",
     "reg": 16502000514,
     "roll": 35,
     "section": "A",
@@ -253,7 +253,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Tanjima Nafeej Orna",
+    "name": "Tanjima Nafeej Orna (Inactive)",
     "reg": 16502000518,
     "roll": 37,
     "section": "A",
@@ -288,7 +288,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "**** Fahima",
+    "name": "Fahima Nidhi",
     "reg": 16502000427,
     "roll": 42,
     "section": "A",
