@@ -15,7 +15,7 @@ export function StudentTile(std: Student) {
                 <h3>{std.name}</h3>
                 <p>
                     <b>Reg:</b> {std.reg} <br />
-                    <b>Roll:</b> {std.roll})<br />
+                    <b>Roll:</b> {std.roll}<br />
                     <b>Section:</b> {std.section}<br />
                 </p>
             </div>
