@@ -246,7 +246,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Kamrizzaman",
+    "name": "Kamrizzaman (Inactive)",
     "reg": 16502000559,
     "roll": 36,
     "section": "A",
