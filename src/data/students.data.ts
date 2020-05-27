@@ -113,7 +113,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Israt Jahna",
+    "name": "Israt Jahan",
     "reg": 16502000510,
     "roll": 17,
     "section": "A",
@@ -204,7 +204,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Mehejabin Hur e Jannat",
+    "name": "Mehejabin Hur-e-Jannat",
     "reg": 16502000539,
     "roll": 30,
     "section": "A",
@@ -295,13 +295,6 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Farhana Yeasmin",
-    "reg": 16502000563,
-    "roll": 43,
-    "section": "A",
-    "batch": 19
-  },
-  {
     "name": "Farhana Yeasmin Eity",
     "reg": 16502000563,
     "roll": 43,
@@ -365,7 +358,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "sharmin akter tuba",
+    "name": "Sharmin akter tuba",
     "reg": 16502000468,
     "roll": 52,
     "section": "A",
@@ -393,7 +386,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "iktedul Huq Bijoy",
+    "name": "Iktedul Huq Bijoy",
     "reg": 16502000415,
     "roll": 56,
     "section": "A",
@@ -414,21 +407,14 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "Md. Anisuzzaman",
-    "reg": 16502000466,
-    "roll": 58,
-    "section": "A",
-    "batch": 19
-  },
-  {
-    "name": "Joy Chandro Sarkar Pappyo",
+    "name": "Joy Chandro Sarkar Pappyo (Inactive)",
     "reg": 16502000479,
     "roll": 59,
     "section": "A",
     "batch": 19
   },
   {
-    "name": "Rakib",
+    "name": "Rakib (Inactive)",
     "reg": 16502000457,
     "roll": 60,
     "section": "A",
@@ -799,7 +785,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "md. Abu Sayed Rifat",
+    "name": "Md. Abu Sayed Rifat",
     "reg": 16502000529,
     "roll": 113,
     "section": "B",
@@ -841,7 +827,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "md. Tamim Ahmed",
+    "name": "Md. Tamim Ahmed",
     "reg": 16502000556,
     "roll": 119,
     "section": "B",
@@ -876,7 +862,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "nuren Durdana Abha",
+    "name": "Nuren Durdana Abha",
     "reg": 16502000429,
     "roll": 124,
     "section": "C",
@@ -911,7 +897,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "nadia Islam Tithi",
+    "name": "Nadia Islam Tithi",
     "reg": 16502000493,
     "roll": 129,
     "section": "C",
@@ -1058,7 +1044,7 @@ const data: Student[] = [
     "batch": 19
   },
   {
-    "name": "md. Jashim Uddin",
+    "name": "Md. Jashim Uddin",
     "reg": 16502000391,
     "roll": 150,
     "section": "C",

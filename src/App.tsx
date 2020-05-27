@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     setStudents(studentsData);
-  });
+  }, []);
 
   const searchHandler = async (e: React.ChangeEvent<HTMLInputElement>): Promise<void>=> {
     await setSearchText(e.currentTarget.value.toLowerCase());
